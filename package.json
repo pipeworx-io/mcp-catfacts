@@ -1,0 +1,10 @@
+{
+  "name": "@pipeworx/mcp-catfacts",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "catfacts"],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
