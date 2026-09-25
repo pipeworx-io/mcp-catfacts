@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-catfacts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Cat Facts MCP — wraps Cat Facts API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-2cd65d3ab6c5d60870199540eb380b59ada3e4fac8bebee6e0ba72afe3183839",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-4d93d3a2d333f407f2e86fe7b7b5fd0c5e3bca5607ee1377582baf1957f125d3",
+    "sourceCommit": "babdd280d475dceddecc9ebf8f2a661712781a81"
   }
 }
