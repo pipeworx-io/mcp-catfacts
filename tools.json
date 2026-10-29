@@ -1,0 +1,36 @@
+[
+  {
+    "name": "get_fact",
+    "description": "Get a random cat fact. Returns the fact text and character length. Use get_facts to retrieve multiple facts at once.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "list_breeds",
+    "description": "Search cat breeds by name or list all available breeds. Returns breed name, country of origin, coat type, and pattern details.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number",
+          "description": "Number of breeds to return. Defaults to 10."
+        }
+      }
+    }
+  },
+  {
+    "name": "get_facts",
+    "description": "Get multiple random cat facts at once. Specify count (e.g., 5). Returns array of fact texts with character lengths.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number",
+          "description": "Number of facts to return. Defaults to 5."
+        }
+      }
+    }
+  }
+]
